@@ -12,8 +12,8 @@ This component attempts to be a "do everything" embedded webserver for OpenBMC.
   (repo link - https://bitbucket.org/fortanix/asrock-openbmc/src/main/). Once you have updated the dev branch name and commit hash, you can build openbmc by
   following the instructions https://bitbucket.org/fortanix/asrock-openbmc/src/main/README.md . 
 - Once the build suceeds, raise a PR to ```series3-openbmc``` branch and wait for CI to pass. 
-- Once the PR is merged, please raise a PR to update the ```SRCREV``` in ```asrock-openbmc/meta-phosphor/recipes-phosphor/webui/webui-vue_git.bb``` with the
-  latest commit hash of ```series3-openbmc``` branch of this repo (```webui-vue```). Please  make sure that the ```branch``` field in ```SRC_URI```
+- Once the PR is merged, please raise a PR to update the ```SRCREV``` in ```asrock-openbmc/meta-phosphor/recipes-phosphor/interfaces/bmcweb_git.bb``` with the
+  latest commit hash of ```series3-openbmc``` branch of this repo (```bmcweb```). Please  make sure that the ```branch``` field in ```SRC_URI```
   is kept to ```series3-openbmc```.
 
 
